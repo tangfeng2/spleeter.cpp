@@ -1,0 +1,21 @@
+# Build output
+build/
+build-*/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv*
+
+# Downloaded / generated assets (checkpoints, exported models, test data)
+models/
+test/
+
+# Scratch output produced by the tooling in tools/
+tools/ref/
+tools/ckpt_*.txt
+tools/debug_*.txt
+*.npy
+
+# Temporary stderr files (older builds wrote them into the working directory)
+sp_*.tmp
