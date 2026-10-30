@@ -9,6 +9,11 @@ same network, the same masking, the same inverse STFT, and the same ffmpeg
 commands — so the C++ tool produces the same audio as
 `spleeter separate`.
 
+MIT licensed — see [LICENSE](LICENSE). The algorithm, the UNet architecture
+and the model configurations are derived from
+[Spleeter](https://github.com/deezer/spleeter) (MIT, © Deezer SA), whose
+copyright notice is retained in that file.
+
 ---
 
 ## Status
